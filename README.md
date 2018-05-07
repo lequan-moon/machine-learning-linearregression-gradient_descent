@@ -52,8 +52,34 @@ The hypothesis is y = C + Bx1 + Ax2
 Install Octave and run 
 ```
 ex1
+
+Output:
+For population = 35,000, we predict a profit of 4519.767868
+For population = 70,000, we predict a profit of 45342.450129
 ```
 
 ```
 ex1_multi
 ```
+
+# Implement scikit learn
+After implementation with scikit learn
+We see that the hypothesis is almost identical
+
+![](https://image.ibb.co/dvBFon/compare.png)
+
+But then the output is diffirent
+
+Mathematically:
+> For population = 35,000, we predict a profit of 4519.767868
+> For population = 70,000, we predict a profit of 45342.450129
+
+Scikit:
+> For population = 35,000, we predict a profit of 2798.3688
+> For population = 70,000, we predict a profit of 44554.5463
+
+Notice the 35,000 data is different?
+Turn out, trainning data set has no data for <50,000 so maybe that's why scikit predict diffirently compare to math algorithm
+ 
+But in the other hand, implementation for multi-features is much more easier.
+ 

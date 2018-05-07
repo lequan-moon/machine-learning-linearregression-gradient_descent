@@ -66,7 +66,7 @@ ex1_multi
 After implementation with scikit learn
 We see that the hypothesis is almost identical
 
-![](https://image.ibb.co/dvBFon/compare.png)
+![](https://preview.ibb.co/dvBFon/compare.png)
 
 But then the output is diffirent
 
